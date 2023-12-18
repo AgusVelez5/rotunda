@@ -5,7 +5,6 @@ class ErrorManager {
   MAX_ALLOWED_ERROR_RATE = 10
 
   constructor() {
-    super()
     this.errorDateQueue = []
     this.lastEmailTimestamp = 0
   }
